@@ -1,0 +1,35 @@
+---
+title: "prueba"
+author: "Jose"
+date: "5/6/2021"
+output: html_document
+---
+# esto es una prueba de este header
+## esta es una prueba de este header mas pequeña
+### esta es una prueba de este header mas pequeña aun
+#### esta es una prueba de este header mas pequeña aun mas
+
+este es texto normal
+
+*esto es cursiva*
+
+**esto es negrilla**
+
+este es un link a mi Rpubs [link a mi Rpubs](https://rpubs.com/Jose230600?fbclid=IwAR2SbJ9yxkN3b_A1_dFDEinIRoz2tbVuwHcbFRjt4FAjxC2fIOtMtbAx9XI)
+
+los anteriores los separe con enter los sigientes con doble espacio
+
+-esta  
+-es  
+-una  
+-lista    
+-esta es una funcion de R `library()` que sirve para ver cuales paquetes tenemos instalados
+
+```{r}
+print("este es un chunk un cacho un pedacito de codigo de R")
+```
+
+```{r,echo=FALSE}
+print("este es un chunk un cacho un pedacito de codigo de R pero que esta echo para que no se muestre el codigo")
+```
+
